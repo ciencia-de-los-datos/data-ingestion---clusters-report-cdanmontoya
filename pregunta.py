@@ -41,6 +41,3 @@ def clean_key_words():
     return lambda x: ' '.join(x.apply(
         lambda y: ' '.join(y.replace('.', '').split())
     ))
-
-
-ingest_data()
